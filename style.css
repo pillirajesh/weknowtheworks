@@ -1,0 +1,74 @@
+.fluid-container {
+  background-color: pink;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+}
+
+.profile-image {
+  font-size: 100px;
+  color: rgb(57, 57, 149);
+}
+
+.image {
+  font-size: 70px;
+  color: #877e7e;
+}
+.profile-name {
+  font-size: 15px;
+  font-family: "roboto";
+  color: rgb(57, 57, 149);
+  font-weight: 600;
+}
+
+.name {
+  font-size: 40px;
+  font-family: "roboto";
+  color: rgb(57, 57, 149);
+  font-weight: bold;
+}
+
+.details {
+  font-size: 15px;
+  font-family: "roboto";
+  color: rgb(57, 57, 149);
+  font-weight: 500;
+}
+
+.highlight {
+  font-size: 18px;
+  font-family: "roboto";
+  color: rgb(57, 57, 149);
+  font-weight: 800;
+}
+
+.skills-container {
+  background-color: rgb(57, 57, 149);
+  border-radius: 500px;
+  padding-left: 40px;
+  padding-top: 20px;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .skills-container {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100px;
+    padding-left: 25px;
+  }
+
+  .image {
+    font-size: 50px;
+  }
+  .name {
+    font-size: 18px;
+  }
+}
+
+.horizontal-line {
+  border-bottom: 4px solid rgb(57, 57, 149);
+  margin-bottom: 20px;
+}
